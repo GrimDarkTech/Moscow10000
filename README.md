@@ -1,5 +1,5 @@
 # Moscow10000
- The game was created by the JBEEBE-Team Corp team to participate in the "Лидеры цифровой трансформации" competition
+The game was created by the JBEEBE-Team Corp team to participate in the "Лидеры цифровой трансформации" competition\n
 Видеоигра, разработанная командой JBEEBE-Team Corp на Unity для участия в конкурсе "Лидеры цифровой трансформации"
 Жанр: Визуальная новелла
 ## Цель проекта
