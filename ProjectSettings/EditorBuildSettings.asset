@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RailwayStation.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Kremlin.unity
+    guid: 069e7d606b1dd72428b65d0574072cd7
+  - enabled: 1
+    path: Assets/Scenes/Metro.unity
+    guid: 89ee7717197d71e41aeac411af27c1e4
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 929f33a51498a9e42b7d58c0bbc7de62
+  - enabled: 1
+    path: Assets/Scenes/Hotel.unity
+    guid: 2e7c165578e8c704b9e357e21ac27d96
   m_configObjects: {}
