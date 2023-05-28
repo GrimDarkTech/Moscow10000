@@ -17,5 +17,11 @@ The game was created by the JBEEBE-Team Corp team to participate in the "Лид�
 Жанр визуальных новелл в общем его виде не ограничен по возрасту. В среднем, это люди с 16 до 35 лет.
 В качестве второго жанра были выбраны мистика и фантастика. Целевая аудитория – люди с 12 лет.
 Целевая аудитория – люди с 16 лет.
+##Использованные материалы:
+Calm and Peaceful by LesFM | https://lesfm.net/relaxing-background-
+m usic/
+M usic prom oted by https://ww w.chosic.com/free-m usic/all/
+Creative Com m ons CC BY 3.0
+https://creativecom m ons.org/licenses/by/3.0/
 
 
