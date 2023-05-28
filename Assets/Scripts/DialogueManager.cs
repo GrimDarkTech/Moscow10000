@@ -16,7 +16,6 @@ public class DialogueManager : MonoBehaviour
         if(curentDialogue == null && dialogueList.Count > 0)
         {
             LoadDialogueByIndex(0);
-            GenerateTextByChar();
         }
     }
 
@@ -24,6 +23,13 @@ public class DialogueManager : MonoBehaviour
     public void GenerateTextByChar()
     {
         StartCoroutine(curentDialogue.ReadTextByChar(charDelay));
+    }
+    public void InvokeDialogueEvent()
+    {
+        if (curentDialogue.onDialogueStarted != null)
+        {
+            curentDialogue.onDialogueStarted.Invoke();
+        }
     }
 
     public string GetCurentDialogText()
@@ -55,6 +61,8 @@ public class DialogueManager : MonoBehaviour
         {
             curentDialogue = dialogueList[dialogueIndex + 1];
             dialogueIndex++;
+            GenerateTextByChar();
+            InvokeDialogueEvent();
         }
     }
     public void PreviousDialogue()
@@ -63,6 +71,8 @@ public class DialogueManager : MonoBehaviour
         {
             curentDialogue = dialogueList[dialogueIndex - 1];
             dialogueIndex--;
+            GenerateTextByChar();
+            InvokeDialogueEvent();
         }
     }
     public void LoadDialogueByIndex(int index)
@@ -71,6 +81,8 @@ public class DialogueManager : MonoBehaviour
         {
             curentDialogue = dialogueList[index];
             dialogueIndex = index;
+            GenerateTextByChar();
+            InvokeDialogueEvent();
         }
     }
 

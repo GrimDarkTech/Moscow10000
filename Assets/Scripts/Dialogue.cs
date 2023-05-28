@@ -10,6 +10,10 @@ public class Dialogue
     public string characterName;
     [SerializeField]
     private string text;
+
+    [SerializeField]
+    public UnityEvent onDialogueStarted;
+
     public string textByChar;
 
     public List<Answer> answers = new List<Answer>(); 
