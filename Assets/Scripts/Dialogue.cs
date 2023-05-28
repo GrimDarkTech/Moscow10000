@@ -9,6 +9,7 @@ public class Dialogue
 {
     public string characterName;
     [SerializeField]
+    [TextArea(4, 15)]
     private string text;
 
     [SerializeField]
