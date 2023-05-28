@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 929f33a51498a9e42b7d58c0bbc7de62
+  - enabled: 1
     path: Assets/Scenes/Area.unity
     guid: 9fa08f1a5d3723e4f9ae8ec4c0db8c3b
   - enabled: 1
@@ -17,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Metro.unity
     guid: 89ee7717197d71e41aeac411af27c1e4
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 929f33a51498a9e42b7d58c0bbc7de62
   - enabled: 1
     path: Assets/Scenes/Hotel.unity
     guid: 2e7c165578e8c704b9e357e21ac27d96
