@@ -26,5 +26,7 @@ m usic/
 M usic prom oted by https://ww w.chosic.com/free-m usic/all/
 Creative Com m ons CC BY 3.0
 https://creativecom m ons.org/licenses/by/3.0/
+## Скачать билд
+[Download](https://drive.google.com/file/d/172zc02ECdlyM6M5V8VnolstFaI_CtLVk/view)
 
 
